@@ -72,7 +72,6 @@ TELEBOT/
 │
 ├── .gitignore                  # Git untracked registry patterns
 ├── config.py                   # Secure Environment Instance Configurations (Ignored by Git)
-├── config.example.py           # Public reference configuration boilerplate template
 ├── requirements.txt            # System dependency listing manifest
 └── main.py                     # Main Orchestrator and entry polling process runtime
 ```
@@ -131,15 +130,7 @@ pip install -r requirements.txt
 
 To safeguard your private keys against public tracking commits, the project incorporates a `.gitignore` framework.
 
-Create your application parameters config file locally:
-
-Duplicate the template copy file and rename it exactly to `config.py`:
-
-```bash
-cp config.example.py config.py
-```
-
-Open your fresh `config.py` file with any text editor utility and insert your secret BotFather HTTP token credentials:
+Create a new file named `config.py` inside your project root directory and insert your secret BotFather HTTP token credentials:
 
 ```python
 # config.py
