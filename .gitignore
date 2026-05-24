@@ -1,0 +1,32 @@
+# Python Byte-code & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# 🔒 SECURITY: Ignore your local secrets file containing the Telegram API Token
+config.py
+
+# 📦 DATABASE: Ignore your local SQLite tracking databases and test logs
+*.db
+*.sqlite3
+db/user.db
+
+# IDE / Editor Configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
