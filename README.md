@@ -158,7 +158,7 @@ Upon startup, the script will automatically create a local `user.db` file inside
 
 ---
 
-# 🔮 Future Development Roadmap
+## 🔮 Future Development Roadmap
 
 ## Application-Layer Field Encryption
 
